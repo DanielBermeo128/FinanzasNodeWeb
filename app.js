@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'admin',
     password: '1234',
     database: 'sistema_de_finanzas',
     port: 3306
